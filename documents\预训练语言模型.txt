@@ -1,0 +1,11 @@
+预训练语言模型
+
+预训练语言模型（Pre-trained Language Model）是指在大规模文本语料上进行预训练的语言模型，它可以通过微调适配各种下游任务。
+
+常见的预训练语言模型包括：
+1. BERT（Bidirectional Encoder Representations from Transformers）：双向编码器，擅长理解任务
+2. GPT（Generative Pre-trained Transformer）：单向解码器，擅长生成任务
+3. T5（Text-to-Text Transfer Transformer）：将所有任务统一为文本到文本格式
+4. LLaMA：Meta开源的大语言模型系列
+
+预训练+微调的范式已成为现代NLP的主流方法，大大提升了各种任务的性能。
